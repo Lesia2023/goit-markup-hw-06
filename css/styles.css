@@ -871,6 +871,53 @@ footer{
     margin-bottom:20px ;
 
 }
+/*створення форми*/
+.contacts-email{
+    margin-left: 183px;
+    
+}
+.form-email{
+    display: flex;
+    align-items: baseline;
+     gap: 12px;
+        
+}
+
+.user-email{
+color: rgba(255, 255, 255, 0.60);
+width: 358px;
+    height: 50px;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.8;
+    padding-left: 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.button-submit{
+    
+color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 1.8;
+ width: 200px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 4px;
+ background: #2196F3;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
 /*створення модального вікна*/
 
 .backdrop{
@@ -926,4 +973,120 @@ scale:0.6;
     width: 18px;
     height: 18px;
     fill:currentColor ;
+}
+/*Форма*/
+
+.form-modal{
+    display: flex;
+   flex-direction: column;
+   margin-left: 40px;
+   
+   
+
+}
+.data-text{
+    color: #212121;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+.data{
+       color: #757575;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.12px;
+        margin-bottom: 4px;
+        margin-top:10px ;
+}
+.input-form{
+    width: 448px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    
+}
+
+.checkbox-text{
+width: 400.623px;
+height: 24px;
+color: #757575;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+}
+.checkbox-flag{
+margin-top: 20px;
+margin-bottom: 30px;
+
+}
+
+
+
+.button-form-modal{
+    color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 1.87;
+         width: 200px;
+         height: 50px;
+        border-radius: 4px;
+        background: #2196F3;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+       
+        display: block;
+         margin: auto;
+         
+   }
+   .koment{
+    width: 448px;
+    height: 96px;
+    flex-shrink: 0;
+    color: rgba(117, 117, 117, 0.50);
+    font-family: Roboto;
+     font-size: 12px;
+     font-weight: 400;
+    letter-spacing: 0.12px;
+    padding:12px 16px ;
+    resize: none;
+border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+   }
+  .icon-form{
+    width: 18px;
+    height: 18px;
+  }
+
+  .form-fields{
+    position: relative;
+    
+  }
+
+
+
+.icon-form-input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-form{
+position: absolute;
+left: 12px;
+bottom:11px;
+}
+.link-form{
+        color: #2196F3;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.42px;
+        text-decoration-line: underline;
 }
