@@ -1004,6 +1004,8 @@ scale:0.6;
         margin-top:10px ;
 }
 .input-form{
+
+
     width: 448px;
     height: 40px;
     border-radius: 4px;
@@ -1075,6 +1077,17 @@ appearance: none;
     border: 1px solid rgba(33, 33, 33, 0.20);
    }
 
+.icon-form-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
 
   .icon-form{
     width: 18px;
@@ -1082,13 +1095,13 @@ appearance: none;
     position: absolute;
      left: 12px;
     bottom: 11px;
-    fill: #212121;
+    fill: currentColor;
   }
 
 
 .icon-form:focus{
 
-   fill: #2196F3;
+   color: #2196F3;
 }
 
 
@@ -1102,15 +1115,10 @@ appearance: none;
 
 
 
-.icon-form-input{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
 
    
-}
+
 
 
 
