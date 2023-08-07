@@ -1005,13 +1005,13 @@ scale:0.6;
 }
 .input-form{
 
-
+    display: block;
     width: 448px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
     padding-left:33px ;
-    color: #000000;
+   
 }
 .input-form:focus{
 outline:1px  solid #2196F3;
@@ -1077,9 +1077,12 @@ appearance: none;
     border: 1px solid rgba(33, 33, 33, 0.20);
    }
 
+
+
+
 .icon-form-input {
-    position: relative;
-    display: flex;
+    position: absolute;
+    display: inline-block;
     align-items: center;
     justify-content: center;
     
@@ -1088,21 +1091,16 @@ appearance: none;
 
 
 
-
-  .icon-form{
+.icon-form{
     width: 18px;
     height: 18px;
     position: absolute;
      left: 12px;
     bottom: 11px;
-    fill: currentColor;
+    color:#212121;
   }
 
 
-.icon-form:focus{
-
-   color: #2196F3;
-}
 
 
 
@@ -1142,7 +1140,7 @@ appearance: none;
     border-radius: 4px;
    outline: 2px solid #2196F3;
     margin-right: 10px;
-     transition: background-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-form-check{
     position: absolute;
