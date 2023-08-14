@@ -975,6 +975,7 @@ scale:0.6;
     transition: color 250ms cubic-bezier(0.4,0,0.2,1);
 
 }
+
 .modal-close-icon{
     width: 18px;
     height: 18px;
@@ -983,10 +984,12 @@ scale:0.6;
 }
 .modal-close-icon:focus {
     fill: #2196F3;
+    
 }
 .modal-close-icon:hover{
     fill: #2196F3;
 }
+
 
 
 /*Форма модального вікна */
@@ -1185,8 +1188,7 @@ appearance: none;
     outline: 2px solid #2196F3;
 }  
 .checkbox-flag:focus+.checkbox-costom {
-      background-color: #2196F3;
-      color:#ececec;
+    border: 1px solid #2196F3;
 }
 
 
